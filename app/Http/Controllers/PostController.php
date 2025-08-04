@@ -8,7 +8,7 @@ use App\Http\Requests\UpdatePostRequest;
 use App\Models\Post;
 use App\Models\Categories;
 
-class CrudController extends Controller
+class PostController extends Controller
 {
     /**
      * Display a listing of the resource.

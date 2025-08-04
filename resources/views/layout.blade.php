@@ -16,7 +16,7 @@
             <li><a href="#overview">Overview</a></li>
             <li><a href="{{route('posts.index')}}">Post management</a></li>
             <li><a href="{{route('posts.create')}}">Post create</a></li>
-            
+            <li><a href="{{route('users.index')}}">User Manage</a></li>
             <li><a href="#notifications">Notifications</a></li>
             <li><a href="#settings">Settings</a></li>
         </ul>

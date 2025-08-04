@@ -183,17 +183,8 @@ canvas {
     color: #1B263B;
 }
 
-.btn-primary {
-    background-color: #E6B800;
-    border-color: #E6B800;
-    color: #1B263B;
-}
 
-.btn-primary:hover {
-    background-color: #1B263B;
-    border-color: #1B263B;
-    color: #F8FAFC;
-}
+
 
 .alert {
     background-color: #D9E2EC;
@@ -245,4 +236,65 @@ canvas {
 
 .post-edit-container h2 {
     color: #1B263B;
+}
+
+
+
+.user-management-container {
+    background-color: #FFFFFF;
+    border: 2px solid #E6B800;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.user-management-container h2 {
+    color: #1B263B;
+}
+
+
+
+.user-edit-container {
+    background-color: #FFFFFF;
+    border: 2px solid #E6B800;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.user-edit-container h2 {
+    color: #1B263B;
+}
+
+
+
+  
+
+.user-profile-container {
+    background-color: #FFFFFF;
+    border: 2px solid #E6B800;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.user-profile-container h1 {
+    color: #1B263B;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.profile-meta {
+    background-color: #D9E2EC;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.profile-meta p {
+    margin: 0.5rem 0;
+    color: #333333;
 }

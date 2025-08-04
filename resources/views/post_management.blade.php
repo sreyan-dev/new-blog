@@ -25,9 +25,13 @@
                         <td>{{$post->category->name}}</td>
                         <td>{{$post->author_id}}</td>
                         <td>
-                        <a href="{{route('posts.destroy',$post->id)}}" class="btn btn-danger btn-sm">Delete</a>
-                        <a href="{{route('posts.edit',$post->id)}}" class="btn btn-warning btn-sm">Edit</a>
-                        <a href="{{route('posts.show',$post->id)}}" class="btn btn-info btn-sm">View</a>
+                            <form action="{{ route('posts.destroy', $post->id) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this post?')">
+                                @csrf 
+                                @method('DELETE')
+                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                            </form>
+                            <a href="{{route('posts.edit',$post->id)}}" class="btn btn-warning btn-sm">Edit</a>
+                            <a href="{{route('posts.show',$post->id)}}" class="btn btn-info btn-sm">View</a>
                         </td>
                     </tr>
                     @endforeach
